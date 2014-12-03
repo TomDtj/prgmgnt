@@ -1,0 +1,26 @@
+<h1>Listing projectlogs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>projectname</th>
+      <th>Action</th>
+      <th>Actiondata</th>
+      <th>Username</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @projectlogs.each do |projectlog| %>
+      <tr>
+        <td><%= @project[:projectname] %></td>
+        <td><%= projectlog.action %></td>
+        <td><%= projectlog.actiondata %></td>
+        <td><%= projectlog.username %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'Back', projects_path %>
+<br>

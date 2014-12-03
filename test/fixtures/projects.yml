@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  projectname: MyString
+  status: MyString
+  desc: MyText
+  wireframe: MyString
+  repo: MyString
+  site: MyString
+
+two:
+  projectname: MyString
+  status: MyString
+  desc: MyText
+  wireframe: MyString
+  repo: MyString
+  site: MyString
